@@ -13,13 +13,6 @@ for (let i = 0; i <scores.length; i++) {
 }
 console.log(totalScore);
 
-tags.forEach(function(tag){
-    
-console.log(tag);
- 
- });
-
- const doubledScores = scores.map(function (score) {
-   return score * 2;
- });
- console.log(doubledScores);
+  tags.forEach(function (tag) {
+    console.log(tag);
+  });
